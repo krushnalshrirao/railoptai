@@ -1,0 +1,8 @@
+{
+  "name": "Remix RailFlow AI",
+  "description": "AI-driven block scheduling platform optimizing railway maintenance and asset uptime with efficient complaint management and operational oversight.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

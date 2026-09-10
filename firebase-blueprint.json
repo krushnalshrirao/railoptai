@@ -1,0 +1,25 @@
+{
+  "entities": {
+    "UserAccount": {
+      "collection": "users",
+      "fields": {
+        "id": { "type": "string", "description": "Unique user ID" },
+        "name": { "type": "string", "description": "User full name" },
+        "role": { "type": "string", "description": "Role: operator or management" },
+        "designation": { "type": "string", "description": "Staff designation" },
+        "department": { "type": "string", "description": "Department" },
+        "headquarters": { "type": "string", "description": "Station / Division HQ" },
+        "staffId": { "type": "string", "description": "Railway Staff ID" },
+        "contactNumber": { "type": "string", "description": "Phone number" },
+        "avatarColor": { "type": "string", "description": "Avatar badge color" },
+        "password": { "type": "string", "description": "Password" },
+        "createdAt": { "type": "string", "description": "Creation timestamp" },
+        "status": { "type": "string", "description": "Account status (Active/Inactive)" }
+      },
+      "rules": {
+        "read": "true",
+        "write": "true"
+      }
+    }
+  }
+}
